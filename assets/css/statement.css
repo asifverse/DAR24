@@ -1,0 +1,236 @@
+.statement .rts-breadcrumb-area{
+    background-image: url(../images/Leadership/CEOCover.webp);
+}
+.inner-page{
+    background: #fff;
+}
+
+.rts-light-mood .inner-page.blog-details .rts-single-wized{
+    border: none;
+  }
+
+
+  .quote-wrapper {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    margin: 10vh auto 0; /*OPTIONAL MARGIN*/
+  }
+  
+ .quote-wrapper .text {
+    width: 100%;
+    height: 100%;
+    /*BLUE BG*/
+    /* background: radial-gradient(
+      ellipse at center,
+      rgba(79,0,140, 1) 0%,
+      rgba(79,0,140, 1) 70%,
+      rgba(79,0,140, 0) 70.3%
+    ); */
+    /*RED BG
+    background: radial-gradient(
+      ellipse at center,
+      rgba(210, 20, 20, 1) 0%,
+      rgba(210, 20, 20, 1) 70%,
+      rgba(210, 20, 20, 0) 70.3%
+    );*/
+    position: relative;
+    margin: 0;
+    color: white;
+  }
+  
+  .quote-wrapper .text p {
+    height: 100%;
+    font-size: 19px;
+    line-height: 1.25;
+    margin: 0 !important;
+    color: var(--color-primary);
+    padding: 0;
+    text-align: left;
+    /* text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3); */
+  }
+  
+  /* .quote-wrapper  .text::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    float: left;
+    shape-outside: polygon(
+      0 0,
+      98% 0,
+      50% 6%,
+      23.4% 17.3%,
+      6% 32.6%,
+      0 50%,
+      6% 65.6%,
+      23.4% 82.7%,
+      50% 94%,
+      98% 100%,
+      0 100%
+    );
+    shape-margin: 7%;
+  } */
+  
+  /* .quote-wrapper  .text p::before {
+    content: "";
+    width: 50%;
+    height: 100%;
+    float: right;
+    shape-outside: polygon(
+      2% 0%,
+      100% 0%,
+      100% 100%,
+      2% 100%,
+      50% 94%,
+      76.6% 82.7%,
+      94% 65.6%,
+      100% 50%,
+      94% 32.6%,
+      76.6% 17.3%,
+      50% 6%
+    );
+    shape-margin: 7%;
+  } */
+  
+  .quote-wrapper blockquote footer {
+    width: 100%;
+    position: absolute;
+    bottom: 25px;
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: left;
+    /* font-style: italic; */
+    /* text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3); */
+  }
+  
+  .quote-wrapper::before {
+    content: "\201C";
+    font-size: 270px;
+    height: 82px;
+    line-height: 0.78;
+    line-height: 1;
+    position: absolute;
+    top: -120px;
+    left: 0;
+    z-index: 1;
+    font-family: sans-serif, serif;
+    color: var(--color-primary);
+    opacity: 0.9;
+  }
+  
+  
+  @media (min-width: 850px) {
+    .quote-wrapper {
+        width: 350px;
+        height: 350px;
+    }
+  
+    .quote-wrapper::before {
+      font-size: 300px;
+    }
+  
+    .quote-wrapper  .text p {
+      font-size: 19px;
+    }
+  
+    /* .quote-wrapper blockquote footer {
+      bottom: 160px;
+    } */
+
+    .quote-wrapper blockquote{
+        font-style: normal;
+    }
+  }
+
+  .quote-wrapper blockquote footer span {
+    font-size: 16px;
+    color: var(--color-body);
+    display: block;
+  }
+
+  
+  /*THIS CSS IS NOT REQUIRED FOR CIRCULAR TEXT*/
+  /*THIS CSS IS NOT REQUIRED FOR CIRCULAR TEXT*/
+  
+  .note {
+    margin: 5vw;
+    padding: 0.5em;
+    border-left: 0.5em solid #52e052;
+    background: #e9fbe9;
+  }
+  
+  .note a {
+    text-decoration: none;
+    color: #161b1e;
+  }
+  
+  .note a:hover {
+    text-decoration: underline;
+  }
+  
+  .single-blog-area-5 .inner-content p.disc{
+    color: var(--color-primary);
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+  }
+
+  .single-testimonials-main-wrapper .body p.disc::after{
+    display: none;
+  }
+
+  .statement .rts-single-wized .wized-body{
+    margin-top: 150px;
+  }
+
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 300px;
+}
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #65707A;
+    color: white;
+}
+td {
+    color: #5A2D80; /* Purple text as per the image */
+}
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+.quoteText {
+  padding: 0 20px;
+  font-size: 16pt;
+  text-align: center;
+}
+.quoteText::before {
+  content: '\f10d  ';
+  font-family: FontAwesome;
+  color: #4f008c;
+  font-size: 16pt;
+}
+.quoteText::after {
+  content: '  \f10e';
+  font-family: FontAwesome;
+  color: #4f008c;
+  font-size: 16pt;
+}
+
+.quoteSlide{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

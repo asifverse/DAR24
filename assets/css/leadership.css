@@ -1,0 +1,64 @@
+.banner-bg_four{
+    background-image: url(../images/Leadership/Leadership-cover.webp) !important;
+    height: 800px;
+}  
+
+.leadership .banner-inner-four .title-content .title{
+    font-size: 90px !important;
+}
+
+.leadership .rts-has-mask-fill > span{
+    font-size: 72px !important;
+}
+
+.bod .mySwiper_portfolio-5 .swiper-slide.swiper-slide-active .single-portfolio-style-five .inner-content h5{
+    color:var(--color-primary);
+    font-size: 3rem;
+}
+
+.bod .mySwiper_portfolio-5 .swiper-slide.swiper-slide-active .single-portfolio-style-five .inner-content{
+    bottom: -120px;
+    left: 0;
+    text-align: center !important;
+}
+
+.bod .mySwiper_portfolio-5 .swiper-slide{
+    opacity: 1;
+}
+
+
+.executives .single-team-style-one .inner-content span{
+    background: var(--color-secondary);
+}
+
+.executives .single-team-style-one .inner-content a .name{
+    color: var(--color-primary);   
+}
+
+.executives .single-team-style-one .inner-content a {
+   padding: 10px 25px;
+}
+
+.executives .link-coral{
+    color: #ff375e;
+}
+
+.executives .link-coral:hover{
+    color: #ff375e;
+    font-weight: 600;
+}
+
+.leadership .single-service-h2{
+    padding: 0px;
+    background:transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+.leadership .single-service-h2 .inner-content p{
+    margin: 0 0 10px;
+}
+
+.leadership .single-service-h2 img{
+    border-radius: 25px;
+}

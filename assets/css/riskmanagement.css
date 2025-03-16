@@ -1,0 +1,15 @@
+.single-working-process-three::after{
+    top: -50px;
+}
+
+.main-process-wrapper{
+    align-items: normal;
+}
+
+.single-working-process-three .title{
+    color: var(--color-primary);
+}
+
+.title-area-four-w .title{
+    color: var(--color-secondary);
+}

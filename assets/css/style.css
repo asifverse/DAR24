@@ -1,0 +1,165 @@
+/*=== Scss File indexing Here===========
+
+1. variables
+2.typography
+3.spacing
+4.reset
+5.forms
+6.mixins
+7.shortcode
+8.animations
+9.text-animation'
+10.common'
+11.header
+12.banner
+13.button
+14.about
+15.gsap style
+16.serviue
+17.product
+18.pricing
+19.clients
+20.approch area
+21.progress-bar
+22.cta 
+23.social area
+24. footer
+25. testimonials
+26.brand
+27.faq
+28.appoinment
+29.progress-bar
+30.BLog
+31.feature
+32.courser
+33.banner-video
+34.video
+35.text-animation
+36.team
+37.offcanvas-menu
+38.drop-down
+39.pre-loading
+40.contact
+41.back-to-top
+42.masonry
+43.elements
+43.switcher
+43. dark-light-mood
+
+========================================*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  scroll-behavior: auto !important;
+}
+
+body {
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--color-body);
+  font-weight: var(--p-regular);
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100vh;
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    overflow: hidden;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow: hidden;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+
+/*****************************/
+
+ 
+  /* Video styling */
+  .background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    filter:brightness(.5);
+  }
+
+
+#magic {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  top: 5rem;
+  left: 0;
+  position:fixed;
+  /* z-index: -9999; */
+}
+
+.playground{
+
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+.bottomPosition{
+
+  text-align: center;
+  margin-bottom: 50px;
+  
+}
+
+.minText{
+  
+  font-size: 14px;
+}
+
+
+.rts-banner-area-7 .uni-circle-text-path {
+  fill: #fff;
+  height: auto;
+  max-width: 250px;
+  right: 10%;
+  transform-origin: center;
+  text-transform: uppercase;
+}
+
+
+#particles {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}

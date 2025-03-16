@@ -1,0 +1,29 @@
+.rts-breadcrumb-area{
+
+}
+
+.inner-page{
+    background: var(--color-primary);
+}
+
+
+.rts-portfolio-grid-area.masonry .main-isotop .button-group .button.is-checked{
+    background: var(--color-secondary);
+}
+
+.rts-portfolio-grid-area.masonry .main-isotop .button-group .button{
+    background: var(--color-primary);
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.rts-portfolio-grid-area.masonry .main-isotop .button-group{
+    background: transparent;
+    padding: 0;
+    margin: 50px 0 50px;
+}
+
+.rts-portfolio-grid-area.masonry .main-isotop .button-group .button{
+    margin-right: 15px;
+    border-radius: 25px;
+}
