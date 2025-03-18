@@ -11,18 +11,14 @@ body{
     font-size: 24px;
 }
 
-.banner-inner-7 .title{
+/* .banner-inner-7 .title{
     font-size: 120px;
 }
 
 .banner-inner-7 .title .hero-heading-secondary{
     font-size: 48px;
     font-weight: 500;
-}
-
-.banner-inner-7{
-    padding-top: 250px;
-}
+} */
 
 .rts-banner-area-7 .speen-shape text textPath{
     letter-spacing: 1.4px;
@@ -37,10 +33,7 @@ body{
     z-index: 1;
 }
 
-.rts-banner-area-7 .speen-shape:hover i,
-.rts-banner-area-7 .speen-shape:hover text textPath{
-    color: var(--color-secondary);
-}
+
 
 .rts-banner-area-7 .banner-shape-area{
     position: absolute;
@@ -92,13 +85,7 @@ body{
     animation: foglayer_02_opacity 21s linear infinite, foglayer_moveme 13s linear infinite;
   }
   
-  /* ---------- Moving Fog ---------- */
-  /*
-    'size: cover' || 'size: 100%'; results remain the same
-    'attachment: scroll' can be added or removed; results remain the same
-    'attachment: fixed' causing unexpected results in Chrome
-    'repeat-x' || 'no-repeat'; results remain the same
-  */ 
+
   #foglayer_01 .image01, #foglayer_01 .image02 {
     background: url("https://raw.githubusercontent.com/danielstuart14/CSS_FOG_ANIMATION/master/fog1.png") center center/cover no-repeat transparent;
   }
@@ -255,3 +242,42 @@ body{
     0% { transform: translateX(-200px); }
     100% { transform: translateX(100vw); }
 }
+
+
+/* .neon-text {
+  animation: flicker 6s linear infinite;
+}
+
+@keyframes flicker {
+  0%, 3.3%, 37.3%, 40.67%, 98% {
+    opacity: 0.25;
+    color: transparent;
+    text-shadow:
+      0 0 0.3vw #fff,
+      0 0 0.521vw #fff;
+  }
+
+  3.67%, 60%, 93.3% {
+    color: white;
+    text-shadow:
+      0 0 0.3vw #fff,
+      0 0 0.521vw #fff,
+      0 0 1.094vw #fff,
+      0 0 2.188vw #fff,
+      0 0 4.271vw #fff,
+      0 0 4.792vw #fff,
+      0 0 5.313vw #fff,
+      0 0 7.865vw #fff;
+  }
+
+  10%, 36.7%, 38%, 41.33%, 80%, 93.5%, 100% {
+    opacity: 0.75;
+    color: white;
+    text-shadow:
+      0 0 1vw #fff,
+      0 0 2vw #fff,
+      0 0 2.5vw #fff,
+      0 0 3vw #fff,
+      0 0 4vw #fff;
+  }
+} */

@@ -98,6 +98,10 @@
 .nav-pills .nav-link.active {
     background-color: #ff375e !important;
 }
+.nav-pills .nav-link:hover {
+    background-color: #ff375e !important;
+    transform: translatey(-5px);
+}
 .tab-content {
     border: 1px solid #ddd;
     padding: 20px;

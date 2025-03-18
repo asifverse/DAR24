@@ -1,13 +1,10 @@
 @import url("./template.css");
 
-/* body{
-  background: linear-gradient(135deg, #4f008c, #9c27b0) !important;
-} */
+body{
+  background: #4f008c !important;
+}
 
-/* .index-five .rts-header-area-two {
-  position: relative;
-  background: linear-gradient(264.71deg, #8736c4 2.11%, #4f008c 58.87%) !important;
-} */
+
 
 .rts-banner-five-area{
   background: #4f008c;
@@ -16,25 +13,6 @@
 .service-collups-area .accordion-item .accordion-body{
   margin-left: -50px !important;
 }
-
-/* .service-collups-area .accordion-item:nth-child(1){
-  border: none;
-}
-
-.service-collups-area .accordion-item .accordion-header .accordion-button .mid-title .title{
-  color: var(--color-body) !important;
-}
-
-
-
-.service-collups-area .accordion-item .accordion-header .accordion-button .left-icon i{
-  color: var(--color-body) !important;
-}
-
-.accordion-item{
-  border: none !important;
-} */
-
 
 .marque-2{
   background-color: #4f008c;
@@ -47,8 +25,6 @@
 .single-blog-area .inner-content .title-text .title{
   font-size: 48px;
 }
-
-
 
 /*****************Custom Key Activities CSS********************/
 /* .container {
@@ -68,14 +44,18 @@
 }
 
 .month {
-  background: #4f008c;
+  background: #8049A9;
   backdrop-filter: blur(10px);
-  padding: 40px;
+  padding: 35px;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
   align-items: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activenow{
+  background: var(--color-secondary);
 }
 
 .month p{
@@ -97,7 +77,7 @@
 }
 
 .details {
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.1); */
   padding: 20px;
   border-radius: 10px;
   max-width: 80%;
@@ -111,8 +91,6 @@
 
 .details h2 {
   font-size: 3rem;
-  margin-bottom: 15px;
-  margin-top: 15px;
 }
 
 
@@ -123,10 +101,7 @@
 }
 
 .details ul li {
-  /* background: rgba(255, 255, 255, 0.2);
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 5px; */
+  color: #fff;
 }
 
 .month-content .active{
@@ -138,7 +113,7 @@
 }
 
 .month-content h2{
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .details p{
@@ -283,4 +258,13 @@
 
 .owl-carousel .owl-stage{
   padding-top: 2rem;
+}
+
+
+.month-content img{
+  width: 300px;
+}
+
+.approch-area-left p.disc{
+  color: #fff !important;
 }

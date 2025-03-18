@@ -64,13 +64,14 @@
 }
 
 .scroller-wrapper .scroller .slide{
-    width: 85%;
+    width: 90%;
 }
 
 .bg-dark-1 .sub-title {
     border: 2px solid #ff375e;
     padding: 30px 30px;
-    font-size: 60px;
+    font-size: 50px;
+    border-radius: 20px;
 }
 
 
@@ -82,6 +83,10 @@
 
 .ValuedStakeholders .four-accordion-area-faq .accordion-item .accordion-header button{
     color: #fff;
+}
+
+.ValuedStakeholders .four-accordion-area-faq .accordion-item .accordion-header button img{
+    margin-right: 15px;
 }
 
 .ValuedStakeholders .accordion-body p{
@@ -122,5 +127,24 @@ canvas {
 } */
 
 
+.reachCard{
+    height: 550px;
+    background-color: #4f008cb4;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+}
 
 
+.single-approach-area-start.one::before{
+    background-image: url(../images/strategicReview/BM01.webp);
+}
+.single-approach-area-start.two::before{
+    background-image: url(../images/strategicReview/BM02.webp);
+}
+.single-approach-area-start.three::before{
+    background-image: url(../images/strategicReview/BM03.webp);
+}
+.single-approach-area-start.four::before{
+    background-image: url(../images/strategicReview/BM04.webp);
+}

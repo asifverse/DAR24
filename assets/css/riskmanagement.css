@@ -11,5 +11,5 @@
 }
 
 .title-area-four-w .title{
-    color: var(--color-secondary);
+    color: var(--color-secondary) !important;
 }
