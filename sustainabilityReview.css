@@ -1,0 +1,151 @@
+.sustainabilityReview .banner-bg-1{
+    background-image: url(../images/SustainabilityReview/SustainabilityReviewCover.webp);
+    background-position: center;
+    background-repeat: repeat;
+    height: 900px;
+}
+
+.sustainabilityReview .history-nav .nav .title {
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.sustainabilityReview .nav-link, .nav-tabs .nav-link.active .title {
+    color: var(--color-primary) !important;
+}
+
+.sustainabilityReview .history-nav{
+    background: #FF6A39;
+    border: none;
+}
+
+.sustainabilityReview .history-nav .nav .nav-link.active{
+    border-bottom: 2px solid var(--color-secondary) !important; 
+}
+
+/* .sustainabilityReview .single-service-card-box-1{
+    background: var(--color-primary);
+} */
+
+.sustainabilityReview .single-service-card-box-1 .title{
+    color: #fff;
+}
+
+.sustainabilityReview .single-service-card-box-1 .right-icon{
+    color: rgba(22, 22, 22, 0.3);
+}
+
+.sustainabilityGoalsDiv{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 25px;
+    color: #fff;
+    width: 100%;
+    font-weight: 600;
+    height: 100%;
+}
+
+
+.sustainabilityGoalsDiv h5{
+    position: relative;
+    top: 5px;
+}
+
+.sustainabilityGoalsContainer{
+    display: flex;
+    align-items: center;
+}
+
+.secure .pill-container canvas {
+    position: absolute;
+    inset: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: transparent !important;
+    fill: none;
+}
+
+.secure .pill-container {
+    height: 100%;
+    background-color: var(--template-bg);
+    -webkit-transform: scale(1.001);
+    -ms-transform: scale(1.001);
+    transform: scale(1.001);
+    border-radius: 24px;
+}
+
+.secure .pill-wrapper {
+    height: 500px;
+    border-radius: 25px;
+}
+
+.secure .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/****************************/
+
+/************************investment tabs**********************/
+.nav-pills .nav-link {
+    background-color: #4f008c !important;
+    color: white !important;
+    transition: all 0.3s ease !important;
+    border-radius: 15px !important;
+    padding: 25px !important;
+}
+.nav-pills .nav-link.active {
+    background-color: #ff375e !important;
+}
+.nav-pills .nav-link:hover {
+    background-color: #ff375e !important;
+    transform: translatey(-5px);
+}
+.tab-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+}
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+.details ul li {
+    margin: 10px 0;
+}
+
+.investmentTabs .nav{
+    align-items: normal;
+    gap: 1rem;
+}
+
+.investmentTabs .tab-content{
+    border: none;
+}
+
+
+.rts-video-area-about {
+    background-image: url(../images/SustainabilityReview/SustainabilityParallax.webp) !important;
+    height: 500px !important;
+    background-attachment: fixed;
+}
+.single-service-card-box-1{
+    transition: .2s ease-in-out;
+}
+.single-service-card-box-1:hover{
+    background: var(--color-secondary) !important;
+}
+
+.secure{
+    border-radius: 25px;
+    background: linear-gradient(264.71deg, #8736c4 2.11%, #4f008c 58.87%) !important;
+}
+
+.marque-2{
+    background: var(--color-secondary) !important;
+}
+.marque-2 .text-split-wrap-about .title{
+    background: var(--color-secondary);
+    color: #fff !important;
+}
